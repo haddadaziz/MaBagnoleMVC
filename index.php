@@ -85,7 +85,6 @@ $vehicules = array_slice($toutesLesVoitures, $indexDepart, $parPage);
 
                 <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
                     <a href="index.php" class="text-primary font-semibold">Catalogue</a>
-                    <a href="blog.php" class="text-gray-600 hover:text-primary transition">Blog & Communauté</a>
                 </div>
 
                 <div class="flex items-center gap-4">
