@@ -4,7 +4,7 @@ session_start();
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use App\Database;
-use App\Model\User;
+use App\Models\User;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: ../register.php');

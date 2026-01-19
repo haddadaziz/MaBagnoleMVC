@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/classes/database.php';
 
 use App\Database;
-use App\Model\Reservation;
+use App\Models\Reservation;
 
 session_start();
 

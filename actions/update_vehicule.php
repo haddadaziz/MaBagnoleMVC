@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 use App\Database;
-use App\Model\Vehicule;
+use App\Models\Vehicule;
 $id = $_POST['id'] ?? null;
 $marque = trim($_POST['marque']);
 $modele = trim($_POST['modele']);

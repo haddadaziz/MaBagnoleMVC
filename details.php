@@ -3,7 +3,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 session_start();
 
 use App\Database;
-use App\Model\Vehicule;
+use App\Models\Vehicule;
 
 if (!isset($_GET['id']) || empty($_GET['id'])) {
     header('Location: index.php');

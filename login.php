@@ -3,7 +3,7 @@ session_start();
 require_once __DIR__ . '/vendor/autoload.php';
 
 use App\Database;
-use App\Model\User;
+use App\Models\User;
 
 if (isset($_SESSION['user'])) {
     header("Location: index.php");

@@ -6,8 +6,8 @@ require_once __DIR__ . '/classes/database.php';
 session_start();
 
 use App\Database;
-use App\Model\Vehicule;
-use App\Model\Categorie;
+use App\Models\Vehicule;
+use App\Models\Categorie;
 
 $database = new Database();
 $conn = $database->getConnection();

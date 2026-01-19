@@ -5,7 +5,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../classes/database.php';
 
 use App\Database;
-use App\Model\Vehicule;
+use App\Models\Vehicule;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
